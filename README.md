@@ -1,3 +1,78 @@
+# 💬 chattr — One-to-One Chat Application
+
+**chattr** is a real-time one-to-one chat web app built with **React**, **Node.js**, **Express**, and **PostgreSQL**. It supports user authentication, private chatting, message editing, and deletion options, all in a clean and responsive interface.
+
+---
+
+##  Purpose
+
+- To **connect people instantly** via direct messaging.
+- To **create friendships** by enabling simple, real-time conversations.
+- To **learn full-stack development** by implementing features like authentication, routing, and database interactions in a real-world scenario.
+
+---
+
+##  Features
+
+-  User Registration & Login (with persistent login via localStorage)
+-  One-to-One messaging (polls new messages every 1 seconds)
+-  Edit messages (only by sender)
+-  Delete messages:
+- "Delete for Me"
+- "Delete for Everyone" (only sender can delete for both)
+-  Right-click context menu on messages
+
+
+---
+
+## Tech Stack
+
+- **Frontend**: React, Axios
+- **Backend**: Node.js, Express
+- **Database**: PostgreSQL
+- **Styling**: Plain CSS
+
+---
+
+## project structure
+One-oneChat/
+├── backend/
+│ ├── controllers/
+│ │ └── messageController.js
+│ │ └── authController.js
+│ ├── db.js
+│ ├── queries
+│ ├── server.js
+| ├── node_modules
+│ ├── package.json
+│ ├── package-lock.json
+│ └── .env
+│
+├── frontend/
+│ ├── node_modules/
+│ ├── public/
+│ └── src/
+│ ├── components/
+│ │ ├── ChatBox.css
+│ │ ├── chatBox.jsx
+│ │ ├── ContactList.jsx
+│ │ ├── ContactList.css
+│ │ ├── NavBar.jsx
+│ │ └── NavBar.css
+│ ├── App.jsx
+│ ├── App.css
+│ ├── App.test.js
+│ ├── index.jsx
+│ ├── index.css
+│ ├── logo.svg
+│ ├── reportWebVitals.js
+│ ├── package.json
+│ ├── package-lock.json
+│ └── setupTests.js
+├── .gitignore
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
